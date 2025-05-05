@@ -1,0 +1,74 @@
+/* 1-O fundo da página deve ter uma cor suave.*/
+body{
+    background-color: powderblue;
+}
+
+/* 2-O título (<h1>) deve ter uma cor diferente e estar centralizado*/
+.h1{
+    color: blue; text-align: center;
+}
+
+/* 3-O parágrafo (<p>) deve ter um tamanho de fonte maior e ser justificado*/
+.p1{
+    font-size: 22px; text-align: justify;
+}
+.p2{
+    font-size: 18px; text-align: justify;
+}
+.p3{
+    font-size: 18px; text-align: justify;
+}
+
+.p4{
+    font-size: 18px; text-align: justify;
+}
+
+/* 4-A lista (<ul>) deve ter um espaçamento maior entre os itens.*/
+.hobbies{
+    font-size: 25px;
+    margin-bottom: 25px;
+   
+}
+
+.gosto{
+    font-size: 18px;
+    margin-top: 10px
+}
+
+/* 5-A imagem (<img>) deve ter bordas arredondadas e um tamanho adequado.*/
+.img{
+    border-radius:20px;
+    width: 200px;
+}
+
+.tabela{
+    table-layout: fixed;
+    font-size: 20px;
+    
+}
+
+.tabela th:nth-child{
+    width: 200px;
+}
+
+/* 6-A tabela(<table>) deve estar estilizada.*/
+
+/* 7-O link (<a>) deve mudar de cor quando o usuário passar o mouse sobre ele.*/
+
+a:hover{
+    color: purple;
+}
+
+
+#botao:hover{
+    color: red;
+}
+
+.frase{
+    margin-top: 10px;
+    font-weight: bold;
+    color: fuchsia;
+    font-size: 20px;
+    
+}
+
